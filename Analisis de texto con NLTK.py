@@ -33,5 +33,7 @@ tags = pos_tag(tokens)
 # Crear un DataFrame con los tokens y sus etiquetas
 df = pd.DataFrame(tags, columns=["Token", "Etiqueta"])
 
+print("Inicio de Analisis: \n")
+
 # Mostrar el DataFrame en formato de tabla
 print(df)
